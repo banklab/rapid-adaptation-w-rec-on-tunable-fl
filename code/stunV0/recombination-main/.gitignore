@@ -1,0 +1,16 @@
+/target
+*.out
+*.dat
+*.pdf
+*.png
+*.bz2
+.DS_Store
+landscapes/*.fl
+sfs/*
+runs
+haploid_recombination
+generate_landscapes
+calculate_haplotypes
+analyses.py
+plots.py
+analyze_fitness.py

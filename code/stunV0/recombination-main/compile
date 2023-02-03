@@ -1,0 +1,4 @@
+cargo build --release &
+cp target/release/generate_landscapes generate_landscapes &
+cp target/release/haploid_recombination haploid_recombination &
+cp target/release/calculate_haplotypes calculate_haplotypes &
