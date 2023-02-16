@@ -1,5 +1,5 @@
 # Rapid adaptation of recombining populations on tunable fitness landscapes
-Published on Molecular Ecology in Feb.2023
+Accepted on Molecular Ecology in Feb.2023
 
 Two main steps to generate our results presented in our paper:
 ## 1. Simulating dynamics of adaptation on Rough Mount Fuji (RMF) fitness landscapes. 
@@ -18,7 +18,7 @@ d. epi = 0 0.001 0.01 0.05 0.1 ### The variance of the normal distribution from 
 
 e. popSize=100 500 5000 #### population size in the simulations. 
 
-Note: All simulations were run by STUN (version 0) which contains two main functions, "generate_landscapes" and simulating "haploid_recombination". Now we have integrated those two functions into one efficient and user-friendly software, STUN.
+Note: All simulations were run by STUN (version 0) which contains two main functions, "generate_landscapes" and simulating "haploid_recombination". Now we have integrated those two functions into one efficient and user-friendly software, STUN (GitHub). See STUN details (user manual) and cite STUN (biorxiv). 
 
 ## 2. Analyzing features of the initial population and fitness landscapes, summaries of statistics, and generating figures and tables
 Those analyses were coded in 'analyses_20220309.sh'.
